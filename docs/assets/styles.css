@@ -1,0 +1,111 @@
+body {
+    text-align: center;
+    background-color: #283149;
+    font-family: 'Arvo', serif;
+}
+
+
+/* Footer style */
+
+footer {
+    color: rgb(220, 244, 255);
+    margin-top: 10rem;
+}
+
+
+/* Class style */
+
+.text {
+    font-size: 5rem;
+}
+
+
+/* Top */
+
+.top {
+    padding-bottom: 7rem;
+}
+
+.heading-top {
+    color: rgb(220, 244, 255);
+    text-shadow: 3px 2px crimson;
+}
+
+.top-text {
+    color: rgb(169, 191, 201);
+    font-size: 1.3rem;
+    width: 30%;
+    margin: auto;
+}
+
+
+/* Drums */
+
+.drums {
+    flex-wrap: wrap;
+}
+
+.drum {
+    font-weight: 600;
+    width: 10rem;
+    padding: 7rem 0 1rem;
+    margin: 0.5rem 0.8rem;
+    color: crimson;
+    text-shadow: 3px 0px rgb(173, 229, 255);
+    border: 0.5rem solid rgb(78, 78, 78);
+    border-radius: 0.5rem;
+    line-height: 1;
+}
+
+.drums1,
+.drums2,
+.drums3,
+.drums4 {
+    display: inline;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.w {
+    background: url("img/tom1.png") no-repeat;
+    background-position: center;
+}
+
+.a {
+    background: url("img/tom2.png") no-repeat;
+    background-position: center;
+}
+
+.s {
+    background: url("img/tom3.png") no-repeat;
+    background-position: center;
+}
+
+.d {
+    background: url("img/tom4.png") no-repeat;
+    background-position: center;
+}
+
+.j {
+    background: url("img/crash.png") no-repeat;
+    background-position: center;
+}
+
+.k {
+    background: url("img/kick.png") no-repeat;
+    background-position: center;
+}
+
+.l {
+    background: url("img/snare.png") no-repeat;
+    background-position: center;
+}
+
+@media(max-width: 806px) {
+    .top-text {
+        width: 15rem;
+    }
+}
