@@ -59,7 +59,7 @@ function makeSound(input) {
             break;
 
         default:
-            console.log(buttonInnerHTML);
+            console.log(input);
             break;
     }
 }
